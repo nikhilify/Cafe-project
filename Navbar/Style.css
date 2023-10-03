@@ -1,0 +1,142 @@
+
+body{
+    background-color: cadetblue;
+}
+
+.welcome{
+    background-color: #660000;
+    align-items: center;
+    margin: 30vw;
+    font-family: cursive;
+    color: aliceblue;
+    display: flexbox;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.container {
+    background-color: skyblue;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;    
+    position: absolute;
+    padding:20px;
+    width: 5in;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ul.navb{
+    list-style-type: none;
+    margin: 0 410px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+
+  li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li.navb a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.navb a:hover {
+    background-color: darkcyan;
+    color: white;
+  }
+
+#feedback{
+    color: white;
+    text-align: center;
+}
+
+#floatingTextarea{
+margin-top: 10%;
+margin-left: 25%;
+margin-right: 25%;
+transform: translate(-25%,-25%);
+align-items: center;
+height: 10vh;
+
+width: 30vw;
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    text-align: center;
+    color: white;
+
+}
+h5{
+    text-align: center;
+}
+label{
+    padding: 10px;
+    color: white;
+}
+
+ul.passw{
+    text-align: right;
+    font-family: monospace;
+    font-size: medium;
+    margin-left: 100px;
+}
+
+input{
+    border-radius: 0.5%;
+    border: 1px solid;
+    padding: 15px 25px;
+    margin: 10px;
+    width: 85%;
+    font-size: 12px;
+}
+
+/* #submit{
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    margin: 0px 150px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+} */
+
+.btnalign{
+    display: flex;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+button.margin-right{
+    margin-right: 20px;
+}
+
+button{
+    width: 80px;
+    font-weight: bold;
+    font-size: medium;
+    height: 30px;
+    background-color: greenyellow;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 20px;
+}
+
+#feedbackbtn{
+
+    margin-left: 40%;
+    margin-right: 25%;
+}
