@@ -1,0 +1,51 @@
+
+.cafeName{
+    background-color:  #ffcc33    ;
+    width: 15%;
+    justify-content: left;
+
+}
+body{
+    background-color: #660000;
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #ffcc33;
+}
+
+table {
+    background-color: #660000;
+    border: solid 2px;
+
+}
+
+th{
+    font-family: cursive;
+    background-color: #660000;
+    color:  #ffcc33;
+    border: #ffcc33 solid 2px;
+}
+
+td{
+    font-family: cursive;
+    color: #ffcc33;
+    background-color: #660000;
+    border: #ffcc33 solid 1px;
+}
+
+div{
+    display: block;
+    background-color: #660000;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
